@@ -1,0 +1,90 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1{
+    text-align:center;
+}
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+}
+a:hover {
+  background-color: turquoise;
+}
+
+
+.flex {
+  display:flex;
+  justify-content:space-around;
+
+}
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2{
+    text-align:center;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+    display:flex;
+    justify-content:space-between;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section{
+    border: 5px turquoise dashed;
+    margin:5px;
+    padding:5px;
+}
+
+img {
+  border-radius: 20%;
+}
+
+h1 {
+  color: cyan;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+.aqua{
+	color:MidnightBlue;
+    text-shadow: 4px 4px 4px #FF0000;
+}
+
+.pink{
+	color:pink;
+    text-shadow: 4px 4px 4px #FF0000;
+}
+
+.Bisque{
+	color:Bisque;
+    text-shadow: 4px 4px 4px #FF0000;
+}
+h3 {
+    font-family:"cursive","Garamond";
+    font-size:30px;
+}
+
+body {
+    font-family:"cursive","Garamond";
+    font-size:30px;
+    color: MidnightBlue;   
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1000000;
+}
+
+@keyframes example {
+  from {background-color: lightseagreen;}
+  to {background-color: seagreen;}
+}
+.color{
+background-color:lightseagreen;
+   animation-name: example;
+  animation-duration: 4s;
+    animation-iteration-count: 1000000;
+}
+
+.item2 {
+ color: MidnightBlue;
+}
